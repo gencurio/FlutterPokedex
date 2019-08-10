@@ -93,11 +93,3 @@ class PokemonParser{
 
   //pokeList()
 }
-
-class Pokemon{
-  int id;
-  String num;
-  String name;
-  String img;
-
-}
