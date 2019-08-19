@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'PokemonParser.dart';
 
 void main() => runApp(MyApp());
 
@@ -86,10 +87,4 @@ class _PokemonGridState extends State<PokemonGrid>{
       children: pokeParser.pokeList.map((pokemon) => Card()).toList()
       );
   }
-}
-
-class PokemonParser{
-  List<Pokemon> pokeList;
-
-  //pokeList()
 }
